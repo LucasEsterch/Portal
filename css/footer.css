@@ -1,0 +1,35 @@
+
+.footer{
+    background-color: #d9ad27 ;
+    margin: auto;
+}
+
+.footer .btn{
+    background-color: #685783 !important;
+    margin: 2% auto !important;
+    padding: 0.5rem !important;
+}
+
+.footer  a{
+    background-color: #685783 !important;
+    margin: 2% auto !important;
+    padding: 0.5rem !important;
+    text-decoration: none !important;
+    color: white !important;
+    margin: auto !important;
+}
+
+.boton1::before {
+    content: '';
+    position: relative;
+}
+
+
+
+.pie{
+    background-color: #d9ad27;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 1rem !important;
+}

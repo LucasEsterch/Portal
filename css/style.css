@@ -1,0 +1,133 @@
+/* amarillo #d9ad27
+violeta #685783 */
+
+@import url(menu.css);
+@import url(footer.css); 
+
+
+* {
+    margin: 0;
+    padding: 0 !important;
+    
+}
+
+
+body{
+    overflow-x: hidden !important;
+}
+
+.main {
+    background-image: url(../img/foto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;  
+    justify-content: space-around;
+    padding: auto;
+    margin: auto;
+}
+.row{
+    width: 100%;
+}
+
+div h1{
+    align-items: center;
+    margin: 0 auto;
+    color: #685783;
+    font-weight: bold;
+}
+
+.card{
+    margin: 4% auto;
+    padding: auto;
+    background-color: rgba(255 , 255, 255, 0.8);
+}
+
+h5{
+    background-color: white;
+}
+
+
+.listado{
+    margin-left: 10%;
+}
+
+.listado1{
+    margin: 3% !important;
+    text-align: center;
+    columns: 3;
+}
+
+.listado1 li{
+    color: #685783;
+    font-weight: bold;
+}
+
+.elemento{
+    list-style-type: circle;
+}
+
+.mails{
+    display: flex;
+    justify-content: space-around;
+    margin: 3%;
+}
+
+.correo{
+    display: inline-block;
+    margin: auto;
+    padding: auto;
+}
+
+.correo a{
+    list-style: none;
+    text-decoration: none;
+    color: #685783;
+}
+
+h4{
+    text-align: center;
+    color: #685783;
+}
+
+.listado1{
+    columns: 2;
+}
+
+.listado1 li{
+    margin-top: 2%;
+}
+
+/* Inicio Anexo */
+
+.contenedor{
+    background-image: url(../img/foto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: auto;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0;
+}
+
+
+.medica{
+    columns: 2;
+}
+
+.contaduria{
+    margin: 2rem;
+}
+
+.contaduria ul li{
+    list-style-type: circle;
+}
+
+/* Fin Anexo */
+
